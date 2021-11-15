@@ -1,0 +1,92 @@
+body {
+    font-family: Playfair Display; 
+    overflow-x: hidden;
+}
+
+h1 { 
+    font-size: 72px;
+    color: #616057;
+}
+
+h2 { 
+    font-size: 40px;
+    color: #616057;
+}
+h3 { font-size: 22px;
+     color:#616057;
+     font-family: Playfair-Display;
+     font-weight: normal;
+}
+
+h4 { font-size: 18px;
+}
+
+p { 
+    font-family: Avenir Light;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+/*Header*/ 
+
+.nav justify-content-center {
+
+}
+
+.nav-item { 
+
+}
+
+
+/*Jumbotron section*/ 
+
+.jumbotron {
+    background-color: #f7f5ef
+
+}
+
+.UndrawtravelImg { 
+    width: 502px; 
+    height: 334px;
+    position: absolute; 
+    left: 469px; 
+    top: 0px;
+    
+}
+/*Stat Secion*/
+
+.statContainer {
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+.card {
+ background-color: #F0EBDE
+
+
+}
+
+.card-title {
+   font-size: 50px;
+   line-height: 67px;
+   color: black;
+
+}
+
+
+.card-img-top {
+    width: 76px;
+    height: 53.48px; 
+    margin: 0 auto;
+    border: 1px solid blue;
+
+
+    
+
+
+.card-text {
+   font-weight: 300;
+   line-height: 20px;
+}
