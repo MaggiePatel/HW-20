@@ -34,37 +34,46 @@ p {
 
 }
 
-.nav-item { 
 
+.nav-link {
+    color: black;
 }
-
 
 /*Jumbotron section*/ 
 
 .jumbotron {
-    background-color: #f7f5ef
+    background-color: black;
+}
+.heroBackground {
+    background-color: #f7f5ef; 
+    border: 1px solid pink
+}
+
+.heroContent { 
+display: flex; 
+justify-content: center;
+Align-items: center;
+background-color: #f7f5ef; 
 
 }
 
-.UndrawtravelImg { 
-    width: 502px; 
-    height: 334px;
-    position: absolute; 
-    left: 469px; 
-    top: 0px;
-    
-}
+
+
 /*Stat Secion*/
 
-.statContainer {
+.Container {
     display: flex;
     margin-bottom: 15px;
+    justify-content: center;
+Align-items: center;
+background-color: white;
+padding: 100px 50px;
+ 
 
 }
 
 .card {
  background-color: #F0EBDE
-
 
 }
 
@@ -80,8 +89,8 @@ p {
     width: 76px;
     height: 53.48px; 
     margin: 0 auto;
-    border: 1px solid blue;
 
+}
 
     
 
@@ -89,4 +98,14 @@ p {
 .card-text {
    font-weight: 300;
    line-height: 20px;
+}
+
+
+.contentSection {
+    padding: 100px; 
+    padding-bottom: 100px;
+}
+
+.heading {
+  
 }
