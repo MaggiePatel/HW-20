@@ -1,21 +1,25 @@
 body {
     font-family: Playfair Display; 
-    overflow-x: hidden;
+
 }
 
 h1 { 
     font-size: 72px;
     color: #616057;
+    padding: 20px;
 }
 
 h2 { 
     font-size: 40px;
     color: #616057;
+    text-align: center;
+
 }
 h3 { font-size: 22px;
      color:#616057;
      font-family: Playfair-Display;
      font-weight: normal;
+
 }
 
 h4 { font-size: 18px;
@@ -26,10 +30,33 @@ p {
     font-family: Avenir Light;
     font-size: 15px;
     line-height: 1.5;
+    text-align: center;
 }
 
 
 /*Header*/ 
+
+header {
+    background-color: #F0EBDE;
+    padding: 40px;
+    height: 15px;
+  }
+
+  header li {
+    display: inline-block;
+    padding: 0px 10px;
+    position: relative; 
+    bottom: 15px;
+    left: 43%;
+
+  }
+  #logo {
+    margin-left: 10px;
+    top: 10px;
+    position: absolute; 
+
+
+  }
 
 .nav justify-content-center {
 
@@ -46,29 +73,42 @@ p {
 .heroBackground {
     background-color: #f7f5ef; 
 
+
 }
 
 .heroContent { 
 display: flex; 
 justify-content: center;
 Align-items: center;
-background-color: #f7f5ef; 
-margin-left: 200px;
+padding: 20px;
+margin: 0 Auto;
+border: 1px solid blue;
+
 
 }
-
-
+.display-4 {
+    border: 1px solid purple;
+  
+}
 
 
 /*Stat Secion*/
 
+.Containerparent {
+    background-color: #f7f5ef; 
+}
+
+
 .Container {
     display: flex;
     margin-bottom: 15px;
+    margin-right: 300px;
+    margin-left: 300px;
     justify-content: center;
-Align-items: center;
-background-color: white;
-padding: 200px 50px;
+    Align-items: space-between;
+     
+padding: 100px 50px;
+
  
 
 }
@@ -108,14 +148,42 @@ padding: 200px 50px;
 .contentSection {
     padding: 100px; 
     padding-bottom: 100px;
+    
 }
 
 /*The Problem Section */
 
+.problemContent {
+    padding: 100px 100px 100px 0px;
+    width: 50%;
+    align-content: center;
+    border: 1px solid purple;
+    width: 100%;
+    display: flex;
+}
 
+.problemBackground {
+
+    width: 100%;
+}
+
+.yokeImage {
+    
+    float: right;
+}
+
+
+ 
+
+.display-5 {
+    padding: 50px 150px;
+   
+}
 
 .Background {
     background-color: #f7f5ef; 
+   width: 100%;
+  
     
 }
 
@@ -124,22 +192,17 @@ display: flex;
 justify-content: center;
 Align-items: center;
 background-color: #f7f5ef; 
-margin-left: 600px;
-Margin-right: 600px;
-align-text: center;
+margin: 10px 400px;
+border: 1px solid blue;
+padding: 10px 200px;
 
 }
 
 .heading {
     text-align: center;
 
-
 }
 
-.paragraph {
- align-text: center;
-    padding: 20px;
-}
 
 
 .solutionheading {
