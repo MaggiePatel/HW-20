@@ -50,17 +50,13 @@ header {
     left: 43%;
 
   }
+
+
   #logo {
     margin-left: 10px;
     top: 10px;
     position: absolute; 
-
-
   }
-
-.nav justify-content-center {
-
-}
 
 
 .nav-link {
@@ -72,8 +68,6 @@ header {
 
 .heroBackground {
     background-color: #f7f5ef; 
-
-
 }
 
 .heroContent { 
@@ -82,14 +76,8 @@ justify-content: center;
 Align-items: center;
 padding: 20px;
 margin: 0 Auto;
-
-
-
 }
-.display-4 {
 
-  
-}
 
 
 /*Stat Secion*/
@@ -101,10 +89,6 @@ margin: 0 Auto;
     flex: 1;
    
 }
-
-.container div {
- 
-   }
 
 
 .Container {
@@ -125,17 +109,13 @@ margin: 0 Auto;
 .row {
    
         display: flex;
-      
-
-
-      
+           
 }
 
 .card-title {
    font-size: 50px;
    line-height: 67px;
    color: black;
-
 
 }
 
@@ -159,8 +139,7 @@ margin: 0 Auto;
 
 .contentSection {
     padding: 100px; 
-    padding-bottom: 100px;
-    
+    padding-bottom: 100px;   
 }
 
 /*The Problem Section */
